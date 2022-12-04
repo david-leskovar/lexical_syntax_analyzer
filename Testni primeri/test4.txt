@@ -1,0 +1,25 @@
+city "Maribor"{
+
+   
+
+    building "Stuk" {
+
+        var a := 15;
+        var b := 5;
+        point tocka := (a,5);
+        box((1,b),tocka);
+   
+    };
+
+    roundabout "Stukkrozno" {
+
+	circle((5,5),1);
+	
+    };
+
+    
+    tree((1,1));
+    tree((1,2));
+
+
+}

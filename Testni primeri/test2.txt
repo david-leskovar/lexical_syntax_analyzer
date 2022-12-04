@@ -1,0 +1,22 @@
+city "SG"{
+
+   
+
+    building "Spar" {
+
+        var a := 15;
+        var b := a;
+        point tocka := (a,5);
+
+        box((1,b),tocka);
+   
+    };
+
+    river "Mislinja" {
+	var c := 5;
+	bend((c,c),(1,c),30);
+	
+    };
+
+
+}

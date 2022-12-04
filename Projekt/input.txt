@@ -1,0 +1,31 @@
+city "mesto"{
+
+   
+
+    field "Field" {
+
+        var a := 15;
+        var b := a;
+        point tocka := (a,5);
+
+        box((15,15),tocka);
+        box((10,a),tocka);
+
+        list<point> a := ((1,2),(3,4),(1,2),(a+b,3),(4,4*a-b));
+
+        
+
+        if(a>b){
+            box((1,1),(2,2));
+        }else{
+            box((1,1),(2,2));
+        }
+
+        foreach x in a{
+            box((1,1),(2,2));
+        }
+   
+    };
+
+
+}
